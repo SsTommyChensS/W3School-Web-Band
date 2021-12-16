@@ -1,0 +1,62 @@
+/* Responsive */
+/* PC */
+
+/* Mobile */
+@media (max-width: 740px) {
+    #nav {
+        display: block;
+        position: relative;
+    }
+
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav > li > a {
+        display: block;
+    } 
+
+    #nav .subnav a {
+        padding: 10px 40px;
+    }
+    #nav .subnav {
+        position: initial;
+    }
+
+    #header #btn_search {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    .mobile-menu-btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /*content*/
+    #content .mobile-member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member_img {
+        width: 60%;
+    }
+
+    #tour .mobile-place-item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    /*Contact*/
+    #contact .mobile-contact-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
